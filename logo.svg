@@ -1,0 +1,17 @@
+<svg width="320" height="100" viewBox="0 0 320 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .main {
+      font-family: Georgia, serif;
+      font-size: 42px;
+      fill: black;
+    }
+    .line {
+      stroke: black;
+      stroke-width: 2;
+    }
+  </style>
+
+  <text x="10" y="55" class="main">Natasha</text>
+  <line x1="10" y1="65" x2="200" y2="65" class="line"></line>
+  <text x="10" y="90" font-size="16" font-family="Arial">EYEWEAR</text>
+</svg>
