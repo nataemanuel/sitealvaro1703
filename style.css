@@ -1,0 +1,38 @@
+.row {
+  align-items: center;
+}
+
+.nav {
+  justify-content: flex-start; /* menu à esquerda */
+}
+
+.col:last-child {
+  text-align: right; /* ícones à direita */
+}
+.col i {
+  margin-left: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: black;
+}
+.nav-link {
+  color: rgb(0, 0, 0); /* cor normal */
+}
+
+.nav-link:hover {
+  color: #06395f; /* cor ao passar o mouse */
+}
+
+
+.col i {
+  color: black;
+  transition: 0.3s;
+}
+
+.col i:hover {
+  color: #09386a;
+}
