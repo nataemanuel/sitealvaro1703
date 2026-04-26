@@ -1,3 +1,7 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  }
 .row {
   align-items: center;
 }
@@ -20,19 +24,34 @@
   color: black;
 }
 .nav-link {
-  color: rgb(0, 0, 0); /* cor normal */
+  color: rgb(170, 36, 36); /* cor normal */
 }
 
 .nav-link:hover {
   color: #06395f; /* cor ao passar o mouse */
 }
 
-
+.cole i{
+  color: rgb(255, 255, 255);
+  }
 .col i {
-  color: black;
+  color: rgb(29, 29, 29);
   transition: 0.3s;
 }
 
 .col i:hover {
   color: #09386a;
+}
+.faixa-info {
+  background-color: #09386a; /* muda a cor de fundo */
+  color: white; /* cor do texto */
+  padding: 5px 0; /* aumenta a altura visual */
+}
+
+
+.faixa-info .col {
+  min-height: 10px; /* altura das colunas */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
